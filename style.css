@@ -1,9 +1,9 @@
 body {
     margin: 0;
-    background:#f0f8ff;
+    background:#f8f0ff;
     padding: 0;
     font-size: x-large;
-    color: #4682B4;
+    color: #A51D21;
 }
 .page { margin: 2% 10% 10% 10%;}
 #logo {width:35px; height:70px;}
@@ -28,7 +28,7 @@ a{
 }
 a:hover {
     text-decoration: underline;
-    text-decoration-color: #4682B4;
+    text-decoration-color: #1d2056;
 }
 .null:hover{
     text-decoration: none;
@@ -42,7 +42,7 @@ h2{font-size: 120%; margin: 0;}
 hr{
     width: 40%; margin-left: 0;
     border: none; height: 5px;
-    color: #4682B4;background-color: #4682B4;
+    color: #1d2056;background-color: #1d2056;
 }
 .lyrics{
     color: #1ca9c9;
