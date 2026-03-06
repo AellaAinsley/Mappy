@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Demonstrates CSS layout" />
+  <meta name="keywords" content="HTML5, CSS layout"/>
+  <meta name="author" content="Aella Ainsley"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Mappy</title>
+</head>
+
+<body>
+    <section class="nav" style="height:55px;">
+        <nav>
+            <a href=“index.html”><img src=“png/mappy.png” alt=“logo” href=“index.html” id="logo"></a>
+            <a class=“main” href=“#event” >Event</a>
+            <a class=“main” href=“#food” >Food</a>
+            <a class=“main” href=“#coffee” >Coffee</a>
+            <a class=“main” href=“#more” >More</a>
+        </nav>
+    </section>
+    
+    <section class="page">
+        <div class="album">
+            <br><hr>
+            <header onclick="extend('les_failles')" id="event"><h1>Events</h1></header>
+            <p class="credit">Current events</p>
+            <ol class="songs_list hid" id="les_failles">
+                <br>
+                <li><a href="français/anxiété.html">Ramadan (18/02-19/03)</a></li>
+                <li><a class="null">chapelle</a></li>
+            </ol>
+        </div>
+        
+        <div class="album">
+            <hr>
+            <header onclick="extend('impossible_a_prononcer')" id="food"><h1>Food</h1></header>
+            <p class="credit">good food to try</p>
+            <ol class="songs_list hid" id="impossible_a_prononcer">
+                <br>
+                <li><a href="français/La chanson de Maxence.html">Douce France</a></li>
+                <li><a href="français/La chanson de Maxence.html">Les copains d'abord</a></li>
+                <li><a href="français/La chanson de Maxence.html">Que reste-t-il de nos amours</a></li>
+                <li><a href="français/La chanson de Maxence.html">Vesoul</a></li>
+                <li><a href="français/Laisse béton.html">Laisse béton</a></li>
+                <li><a href="français/La chanson de Maxence.html">La chanson de Maxence</a></li>
+                <li><a href="français/La chanson de Maxence.html">Assedic</a></li>
+                <li><a href="français/La chanson de Maxence.html">Chanson sur ma drôle de vie</a></li>
+                <li><a href="français/La chanson de Maxence.html">Comment te dire adieu</a></li>
+            </ol>
+        </div>
+
+        <div class="album">
+            <hr>
+            <header onclick="extend('en_francais')" id="coffee"><h1>Coffee</h1></header>
+            <p class="credit">other than these you can check out any random coffee shop</p>
+            <ol class="songs_list hid" id="en_francais">
+                <br>
+                <li><a href="français/La chanson de Maxence.html">Lão Hạc quán</a></li>
+                <li><a href="français/La chanson de Maxence.html">Cà phê trứng 3T</a></li>
+            </ol>
+        </div>
+
+        <div class="album">
+            <hr>
+            <header onclick="extend('des_autres')" id="more"><h1>More</h1></header>
+            <p class="credit">Places to discover and experience cool stuffs</p>
+            <ol class="songs_list hid" id="des_autres">
+                <br>
+                <li><a class="null"></a></li>
+                <li><a class="null">Van Thanh Tourist Village</a></li>
+                <li><a class="null">The Golden Dragon Water Puppet Theater</a></li>
+                <li><a class="null">Ho Chi Minh City Circus</a></li>
+                <li><a href="français/Ma Meilleur Ennemie.html">Nghĩa An and Hải Nam hội quán</a></li>
+                <li><a class="null">Thien Hau temple/Tan Dinh church</a></li><br>
+                <li><a class="null">Quang San Art Museum (QSAM)</a></li><br>
+                <li><a class="null">National University Village</a></li><br>
+                <li><a class="null">Notre Dame Cathedral</a></li><br>
+                <li><a class="null">Dam Sen amusement park</a></li><br>
+                <li><a class="null">Saigon Zoo and Botanical Gardens</a></li><br>
+                <li><a class="null">Saigon Opera House</a></li><br>
+            </ol>
+        </div>
+        <hr>                    
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

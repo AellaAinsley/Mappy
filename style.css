@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background:#f0f8ff;
+    padding: 0;
+    font-size: x-large;
+    color: #4682B4;
+}
+.page { margin: 2% 10% 10% 10%;}
+#logo {width:35px; height:70px;}
+nav {
+    height: 55px;
+    padding: 2%;
+    vertical-align: middle;
+}
+nav a{
+    padding: 2%;
+    vertical-align: middle;
+}
+.album {
+    padding: 10px 0px 10px 0px;
+}
+.album header:hover{ text-decoration: underline;}
+h1 { margin: 0px; }   .credit { margin: 0px; }    p{ margin: 0px; }
+header {margin: 0px; } ul { margin: 10px; }
+a{ 
+    text-decoration: none;
+    color: #1ca9c9;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #4682B4;
+}
+.null:hover{
+    text-decoration: none;
+}
+h2{font-size: 120%; margin: 0;}
+.songs_list{
+    margin:0px;
+}
+
+/*Lyrics pages*/
+hr{
+    width: 40%; margin-left: 0;
+    border: none; height: 5px;
+    color: #4682B4;background-color: #4682B4;
+}
+.lyrics{
+    color: #1ca9c9;
+}
+
+/*musical*/
+table{
+    border: none;
+}
+h2.musical{
+    margin: 0;  padding: 10px 0px;
+}
+.hid{
+    display: none;
+}
