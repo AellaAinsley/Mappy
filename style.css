@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background:#f8f0ff;
+    background:#f0f8ff;
     padding: 0;
     font-size: x-large;
     color: #A51D21;
@@ -24,11 +24,11 @@ h1 { margin: 0px; }   .credit { margin: 0px; }    p{ margin: 0px; }
 header {margin: 0px; } ul { margin: 10px; }
 a{ 
     text-decoration: none;
-    color: #1ca9c9;
+    color: #1d2056;
 }
 a:hover {
     text-decoration: underline;
-    text-decoration-color: #1d2056;
+    text-decoration-color: #A51D21;
 }
 .null:hover{
     text-decoration: none;
@@ -42,10 +42,10 @@ h2{font-size: 120%; margin: 0;}
 hr{
     width: 40%; margin-left: 0;
     border: none; height: 5px;
-    color: #1d2056;background-color: #1d2056;
+    color: #A51D21;background-color: #A51D21;
 }
 .lyrics{
-    color: #1ca9c9;
+    color: #1d2056;
 }
 
 /*musical*/
