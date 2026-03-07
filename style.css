@@ -8,10 +8,11 @@ body {
 .page { margin: 2% 10% 10% 10%;}
 #logo {width:35px; height:70px;}
 nav {
-    height: 55px;
+    height: 55px; width: 96%;
     padding: 2%;
     vertical-align: middle;
-    position: sticky;
+    position: fixed;
+    background: #f8f0ff;
 }
 nav a{
     padding: 2%;
