@@ -9,8 +9,7 @@
         fwrite($myfile, $txt);
         fclose($myfile);
 
-        $redirect = "index.html"
-        header("Location: $redirect");
+        header("Location: https://aellaainsley.github.io/Mappy/");
 
         exit;
     }
