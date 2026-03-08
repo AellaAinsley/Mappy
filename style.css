@@ -39,7 +39,7 @@ h2{font-size: 120%; margin: 0;}
 .songs_list{
     margin:0px;
 }
-h2:hover {
+header h2:hover {
     text-decoration: none;
 }
 
