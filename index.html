@@ -15,19 +15,22 @@
     <section class="nav" style="height:55px;">
         <nav>
             <a href="index.html"><img src="png/mappy.png" alt=“logo” href=“index.html” id="logo"></a>
-            <a class=“main” href="#event" >Event</a>
-            <a class=“main” href="#food" >Food</a>
-            <a class=“main” href="#coffee" >Coffee</a>
-            <a class=“main” href="#more" >More</a>
+            <a class=“main” href="#event" onclick="extend('E')">Event</a>
+            <a class=“main” href="#food" onclick="extend('F')">Food</a>
+            <a class=“main” href="#coffee" onclick="extend('C')">Coffee</a>
+            <a class=“main” href="#more" onclick="extend('M')">More</a>
         </nav>
     </section>
     
     <section class="page">
         <div class="album">
+            <p>Click on the title to view/hide their content.</p>
+            <p>Navigation bar shortcuts available</p>
+        <div class="album">
             <br><hr>
-            <header onclick="extend('les_failles')" id="event"><h1>Events</h1></header>
+            <header onclick="extend('E')" id="event"><h1>Events</h1></header>
             <p class="credit">Current events</p>
-            <ol class="songs_list hid" id="les_failles">
+            <ol class="songs_list hid" id="E">
                 <br>
                 <li><a href="français/anxiété.html">Ramadan (18/02-19/03)</a></li>
             </ol>
@@ -35,9 +38,9 @@
         
         <div class="album">
             <hr>
-            <header onclick="extend('impossible_a_prononcer')" id="food"><h1>Food</h1></header>
+            <header onclick="extend('F')" id="food"><h1>Food</h1></header>
             <p class="credit">good food to try</p>
-            <ol class="songs_list hid" id="impossible_a_prononcer">
+            <ol class="songs_list hid" id="F">
                 <br>
                 <li>
                     <a href="https://maps.app.goo.gl/WdWLq5YjivLcC5n57">Hủ tiếu mỳ Bà Cao</a>
@@ -156,9 +159,9 @@
 
         <div class="album">
             <hr>
-            <header onclick="extend('en_francais')" id="coffee"><h1>Coffee</h1></header>
+            <header onclick="extend('C')" id="coffee"><h1>Coffee</h1></header>
             <p class="credit">other than these you can check out any random coffee shop</p>
-            <ol class="songs_list hid" id="en_francais">
+            <ol class="songs_list hid" id="C">
                 <br>
                 <li>
                     <a href="https://maps.app.goo.gl/N8928tySmtYnX4848">Chạm</a>
@@ -180,9 +183,9 @@
 
         <div class="album">
             <hr>
-            <header onclick="extend('des_autres')" id="more"><h1>More</h1></header>
+            <header onclick="extend('M')" id="more"><h1>More</h1></header>
             <p class="credit">Places to discover and experience cool stuffs</p>
-            <ol class="songs_list hid" id="des_autres">
+            <ol class="songs_list hid" id="M">
                 <br>
                 <li><a href="https://maps.app.goo.gl/3BQbNgsxRdH5yECQ8">Turtle Pond</a></li>
                 <li><a href="https://maps.app.goo.gl/5wAAeDhkMYMd9Cxr9">Van Thanh Tourist Village</a></li>
