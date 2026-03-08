@@ -21,7 +21,7 @@ nav ul{
 }
 nav li{
     list-style-type: none;
-    padding: 2%;
+    padding: 2%; float: left;
     vertical-align: middle;
 }
 nav a{
