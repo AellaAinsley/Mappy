@@ -11,5 +11,7 @@
 
         $redirect = "index.html"
         header("Location: $redirect");
+
+        exit;
     }
 ?>
