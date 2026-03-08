@@ -16,13 +16,13 @@ nav {
 }
 nav ul{
     list-style-type: none;
-    margin: 2%;
-    display: flex;
-    justify-content: center;
+    margin: 0; padding: 0;
+    width: 96%;
 }
 nav li{
     list-style-type: none;
     padding: 2%;
+    vertical-align: middle;
 }
 nav a{
     padding: 2%;
