@@ -9,7 +9,7 @@
         fwrite($myfile, $txt);
         fclose($myfile);
 
-        $redirect = "/index.html"
-        header("Location: ".$redirect);
+        $redirect = "index.html"
+        header("Location: $redirect");
     }
 ?>
