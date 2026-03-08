@@ -14,6 +14,8 @@ nav {
     position: fixed;
     background: #f8f0ff;
 }
+nav ul{ float: left;}
+nav li{list-style-type: none;}
 nav a{
     padding: 2%;
     vertical-align: middle;
