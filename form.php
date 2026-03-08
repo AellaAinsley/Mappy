@@ -9,6 +9,6 @@
         fwrite($myfile, $txt);
         fclose($myfile);
 
-        header("Location: index.html");
+        header("Location: /index.html");
     }
 ?>
