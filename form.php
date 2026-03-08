@@ -1,5 +1,7 @@
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST"){
+        header("Location: https://aellaainsley.github.io/Mappy/");
+
         $myfile = fopen("data.txt", "a");
 
         $name = htmlspecialchars($_POST["name"]);
@@ -9,8 +11,6 @@
         fwrite($myfile, $txt);
         fclose($myfile);
 
-        header("Location: https://aellaainsley.github.io/Mappy/");
-
         exit;
-    }
+    } else {header("Location: https://aellaainsley.github.io/Mappy/");}
 ?>
